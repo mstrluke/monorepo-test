@@ -1,0 +1,9 @@
+[submodule "apps/expo-app"]
+	path = apps/expo-app
+	url = git@github.com:mstrluke/expo-test.git
+[submodule "apps/services/auth-service"]
+	path = apps/services/auth-service
+	url = git@github.com:mstrluke/auth-service.git
+[submodule "apps/services/api-gateway"]
+	path = apps/services/api-gateway
+	url = git@github.com:mstrluke/apigateway-service.git

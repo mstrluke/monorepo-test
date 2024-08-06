@@ -1,0 +1,26 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:app": "",
+    "start:service": "",
+    "start:all": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "@nestjs/cli": "^10.4.2",
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/core": "^10.3.10",
+    "@nestjs/microservices": "^10.3.10",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  }
+}
