@@ -8,7 +8,7 @@ apps/services/api-gateway:
  - pnpm start (will start on 3000)
 
 apps/services/auth-service:
- -pnpm start (will start on 3001)
+ - pnpm start (will start on 3001)
 
 NATS:
 docker run -p 4222:4222 nats:latest
